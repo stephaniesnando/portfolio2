@@ -1,8 +1,12 @@
 div{
     border-style: solid;
     border-width: 5px;
-    border-color: black;
+    border-color: lavender;
     padding: 5px;
+}
+
+body{
+    background-color: #FAFAD2;
 }
 
 .container{
@@ -10,5 +14,11 @@ div{
 }
 
 .row{
-    border-color: lavender;
+    border-color: grey;
+}
+.list-group-item{
+   background-image: url("http://1-art.eu/images/backgrounds/vellum/vellum-pink-seamless-tile3.jpg");
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
