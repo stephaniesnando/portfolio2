@@ -14,43 +14,49 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-    </head>
+        </head>
     <body>
+        <!-- This is my jumbotron. -->
         <div class="jumbotron">This is my Jquery page.</div>
         <!-- everything within my "somestuff" div will be highlighted in pink -->
-       
-        
+
+        <!-- I put everything within one row, for better organization kinda -->
         <div class="row">
+            <!--I added rows -->
             <div class="col-md-2">
-        <div class="somestuff">
-        <h1> Stuff happening </h1>
-        <p id="replaceWText">Hi</p>
-        <p id="removePara"> Remove </p>
-        <p id="randPara"> Add </p>
-        <p>123</p>
-        <p id="hide">Sibling</p>
-                </div></div>
-        
-        <div class="col-md-3"><div id="superHumans">  <nav class="list-group">
+            <div class="somestuff">
+            <h1> Stuff happening </h1>
+            <p id="replaceWText">Hi</p>
+            <p id="removePara"> Remove </p>
+            <p id="randPara"> Add </p>
+            <p>123</p>
+            <p id="hide">Sibling</p>
+            </div>
+        </div>
+
+        <div class="col-md-3"><div id="superHumans">  
+                <nav class="list-group">
             <h3> First</h3>
             <p><a class="list-group-item" href="technology.html">Technology</a></p>
             <h3>Second</h3>
             <p><a class="list-group-item" href="index.html">About Me</a></p>
             <h3>Third</h3>
             <p><a class="list-group-item" href="projects.html">Projects</a></p>
-            </nav>
-            </div></div>
-      
-        
-            <div class="col-md-3"> <form action=""> <button type="button" id="alertButton"> BUTTON </form></div>
-        
-            <div class="col-md-2">
-        <!-- If you click this "start animation" button, it will move everything within this div to the right. -->
-        <button>Start Animation</button>
-        <div style="background:pink ;height:100px;width:100px;position:absolute;"> 
-        this thing moves, big deal..
-        </div> </div>
-        
-        <script type="text/javascript" src="script_1.js"></script>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="col-md-3"> <form action=""> <button type="button" id="alertButton"> BUTTON </form></div>
+            <!-- This is my fourth and last column  --->
+        <div class="col-md-2">
+            <!-- If you click this "start animation" button, it will move everything within this div to the right. -->
+            <button>Start Animation</button>
+            <div style="background:pink ;height:100px;width:100px;position:absolute;"> 
+            this thing moves, big deal..
+            </div> 
+        </div>
+
+            <script type="text/javascript" src="script_1.js"></script>
     </body>
 </html>

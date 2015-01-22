@@ -29,7 +29,7 @@ $("document").ready(function (){
     $('#removePara').bind('click', removeAPara);
     
     $('#show').css('visibility', 'hidden');
-    
+   
     $('#hide').bind('click', hideThePage);
     $('show').bind('click', showThePage);
     /*  Animation stuff going on*/
@@ -40,6 +40,7 @@ $("document").ready(function (){
 });
 
 /*functions*/
+
 function hideThePage(){
     $("div").hide("slide", {}, 2500);
 }
