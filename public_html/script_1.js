@@ -6,9 +6,11 @@
 
 /* Just thought you should kno that by far, this has been one of the more difficult projects for me
  * I think you should go easy when grading this :( */
+
+/*document*/
 $("document").ready(function (){
     /* Everything within the "somestuff" div class will be pink */
-    $(".somestuff").css("background-color", "pink");
+    $(".somestuff").css("background-color", "light-pink");
     /* The last P text will be red */
     $("p:last-child").css("color", "red");
     
@@ -37,6 +39,7 @@ $("document").ready(function (){
 
 });
 
+/*functions*/
 function hideThePage(){
     $("div").hide("slide", {}, 2500);
 }
